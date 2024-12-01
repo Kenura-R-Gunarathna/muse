@@ -1,0 +1,26 @@
+{
+    "name": "kaviru/muse",
+    "description": "Simple PHP Framework.",
+    "type": "project",
+    "license": "MIT",
+    "keywords": [
+        "framework",
+        "muse"
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        },
+        "files": []
+    },
+    "authors": [
+        {
+            "name": "Kaviru Hapuarachchi",
+            "email": "hapuarachchikaviru@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "kaviru/muse-core": "^2.0"
+    }
+}
